@@ -1,0 +1,34 @@
+#focus{
+  background-color: rgba(255, 255, 255, 0);
+  height: 10vh;
+}
+#focus_read{
+  display: none;
+  min-width: 100%;
+  min-height: 100vh;
+  position: fixed;
+  z-index: 100000;
+  transition: 1s ease;
+}
+
+#focus_read div{
+  min-width: 100%;
+}
+.dark{
+  height:40vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#focus_keys{
+  padding: 1% 0;
+  display: none;
+  width: 100%;
+  color: white;
+  text-shadow: 0px 0px 5px black;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: space-around;
+  transition: 2s ease;
+  margin:0;
+}
+#focus_keys:hover{
+  background-color: black;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/style/css/master.css">
+  <link rel="stylesheet" href="assets/style/css/focus_read.css">
+  <link rel="stylesheet" href="assets/style/css/tooltip.css">
+  <title>Document</title>
+</head>
+<body>
+  <div id="google_translate_element"></div>
+  <p id = "focus_keys"><span>Q: Quit</span><span>W: Increase Size</span><span>E: Decrease Size</span></p>
+  <div id="focus_read">
+    <div class = "dark" id="upper"></div>
+    <div id="focus"></div>
+    <div  class = "dark" id="lower"></div>
+  </div>
+  <p>
+    The English Wikipedia is the English-language edition of the free online encyclopedia Wikipedia. Founded on 15 January 2001, it is the first edition of Wikipedia and, as of July 2016, has the most articles of any of the editions.[2] As of May 2017, nearly 12.1% of articles in all Wikipedias belong to the English-language edition. This share has gradually declined from more than 50 percent in 2003, due to the growth of Wikipedias in other languages.[3] There are 5,414,450 articles on the site (live count).[4] In October 2015, the combined text of the English Wikipedia's articles totalled 11.5 gigabytes when compressed.[5] On 1 November 2015, the English Wikipedia announced it had reached 5,000,000 articles[6] and ran a special logo to reflect the milestone.[7]
+  </p>
+
+  <span class="tooltip"><button id="tts">Text to Speech</button> <span class="tooltiptext">Select text and click the button</span></span>
+  <button id="focusButton">Focus Read</button>
+  <span class="tooltip"><button id="simple">Simplify</button><span class="tooltiptext">Currently not developed</span></span>
+  <script type="text/javascript" src = "assets/script/javascript/focus_read.js"></script>
+  <script type="text/javascript" src = "assets/script/javascript/tts.js"></script>
+  <script type="text/javascript" src = "assets/script/javascript/translate.js"></script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
